@@ -3,18 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@clayui/alert": "^3.40.0",
+    "@clayui/button": "^3.40.0",
+    "@clayui/card": "^3.52.0",
+    "@clayui/css": "^3.52.0",
+    "@clayui/loading-indicator": "^3.40.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "5.0.0",
+    "apollo-boost": "^0.4.9",
+    "apollo-link-context": "^1.0.20",
+    "graphql": "^15.8.0",
+    "moment": "^2.29.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-moment": "^1.1.2",
+    "react-scripts": "^4.0.3",
+    "react-text-truncate": "^0.18.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +46,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "url": "^0.11.0"
+  },
+  "homepage": "./"
 }

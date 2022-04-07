@@ -2,6 +2,37 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Adapted from: https://github.com/lgdd/lfug20-react-workshop
+
+## Liferay
+
+`npm run build
+
+Locate the file names:
+
+```
+File sizes after gzip:
+
+  162.01 KB  build/static/js/2.ae65cd60.chunk.js
+  1.45 KB    build/static/js/main.b153bc7a.chunk.js
+  771 B      build/static/js/runtime-main.492e1ca0.js
+  134 B      build/static/css/main.a3bbd98c.chunk.css
+```
+
+`npm install -g serve
+`serve -s build
+
+Create a remote app in Liferay:
+
+HTML Element Name: my-app
+
+URLs:
+ - http://localhost:3001/static/js/runtime-main.492e1ca0.js
+ - http://localhost:3001/static/js/main.b153bc7a.chunk.js
+ - http://localhost:3001/static/js/2.ae65cd60.chunk.js
+
+CSS URL: http://localhost:3001/static/css/main.a3bbd98c.chunk.css
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +99,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
