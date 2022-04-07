@@ -6,7 +6,9 @@ Adapted from: https://github.com/lgdd/lfug20-react-workshop
 
 ## Liferay
 
-`npm run build
+```
+npm run build
+```
 
 Locate the file names:
 
@@ -19,8 +21,10 @@ File sizes after gzip:
   134 B      build/static/css/main.a3bbd98c.chunk.css
 ```
 
-`npm install -g serve
-`serve -s build
+```
+npm install -g serve
+serve -s build
+```
 
 Create a remote app in Liferay:
 
